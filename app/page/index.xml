@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Flash Player</title>
+        <link rel="stylesheet" href="style/generic.css" />
+        <link rel="stylesheet" href="style/specific.css" />
+    </head>
+    <body class="text-unselectable">
+        <div id="title-bar" class="title-bar content-draggable">
+            <div class="pull-left"></div>
+            <div class="main-container">
+                <span class="title" />
+            </div>
+            <div class="pull-right content-undraggable">
+                <div class="button control-button" x-role="minimize-window" x-content-image="../resources/minimize-button.png" />
+                <div class="button control-button" x-role="unmaximize-window" x-content-image="../resources/unmaximize-button.png" />
+                <div class="button control-button" x-role="maximize-window" x-content-image="../resources/maximize-button.png" />
+                <div class="button control-button" x-role="close-window" x-content-image="../resources/close-button.png" />
+            </div>
+        </div>
+        <div id="main-container">
+            <div id="plugin-container" />
+        </div>
+        <script type="text/javascript" src="script/ipc-comunication.js" />
+        <script type="text/javascript" src="script/traverse-elements.js" />
+    </body>
+</html>

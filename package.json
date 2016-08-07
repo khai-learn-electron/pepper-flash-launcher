@@ -1,0 +1,15 @@
+
+{
+  "name": "pepper-flash-launcher",
+  "version": "0.0.0",
+  "description": "Open shockwave flash files",
+  "main": "index.js",
+  "scripts": {
+    "start": "bash -c ./scripts/start.sh",
+    "test": "bash -c ./scripts/test.sh",
+    "build": "bash -c ./scripts/build.sh",
+    "clean": "bash -c ./scripts/clean.sh"
+  },
+  "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
+  "license": "MIT"
+}
