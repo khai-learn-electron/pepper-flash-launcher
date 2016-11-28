@@ -11,7 +11,7 @@
     "clean": "bash -c ./scripts/clean.sh"
   },
   "bin": {
-    "view-swf": "bash -c ./bin/view-swf.sh"
+    "view-swf": "./bin/view-swf.sh"
   },
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
   "license": "MIT"
